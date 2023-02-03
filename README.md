@@ -33,12 +33,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este fórum tem por finalidade testar habilidades com react sobre os Hooks de estados, e construir tipagens para os componentes estilizados.
 
-- [Acesse o projeto finalizado, online](https://fymorGod.github.io/fylip-dev-links)
-
-
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/mcW6c3ZaonkAOUv91g7Edx/Ignite-Feed-(Community)?node-id=26%3A12&t=4V9IkuA6NxSAcGaV-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ---
 ## :memo: Licença
