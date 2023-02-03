@@ -11,7 +11,7 @@ interface Author {
   avatarUrl: string;
 }
 
-interface Content {
+interface ContentProps {
   type: 'paragraph' | 'link';
   content: string;
 }
@@ -19,7 +19,7 @@ interface Content {
 interface PostProps {
   author: Author;
   publishedAt: Date;
-  content: Content[];
+  content: ContentProps[];
 }
 
 export function Post({ author, content, publishedAt }: PostProps) {
@@ -58,7 +58,7 @@ export function Post({ author, content, publishedAt }: PostProps) {
     const commentsWithoutDeletedOne = comments.filter(comment => {
       return comment !== commentToDelete;
     });
-
+    console.log(commentsWithoutDeletedOne)
     setComments(commentsWithoutDeletedOne);
   }
 
